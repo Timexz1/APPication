@@ -80,7 +80,7 @@ class _RegisterState extends State<Register> {
         ),
         validator: (value) {
           if (value!.isEmpty) {
-            return 'กรุณากรอกข้อมูล';
+            return 'กรุณากรอกข้อมูลนะครับนะครับ';
           }
         },
         onSaved: (value) {
